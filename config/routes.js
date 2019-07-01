@@ -38,7 +38,7 @@ module.exports.routes = {
     'GET /api/v2/user/:userId': { action: 'api/user/index' },
     'GET /api/v2/user/getall': { action: 'api/user/getall' },
     'DELETE /api/v2/user/:userId': { action: 'api/user/delete' },
-    'POST /api/v1/send-sms': { action: 'send-sms' },
+    // 'POST /api/v1/send-sms': { action: 'send-sms' },
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *

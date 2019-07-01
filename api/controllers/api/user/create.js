@@ -16,6 +16,10 @@ module.exports = {
       type: 'string',
       required: true,
     },
+    fullName: {
+      type: 'json',
+      description: 'allowing any json',
+    },
     email: {
       required: true,
       unique: true,
